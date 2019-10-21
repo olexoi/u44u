@@ -1,0 +1,325 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#connect {
+  height: 100%;
+}
+
+.contact-form {
+  height: 40vh;
+  width: 100%;
+}
+
+.contact-form h1 {
+  font-size: 1.5rem;
+}
+
+.contact-form .button {
+  background-color: #aaa;
+  width: 100%;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 15px 0 15px 0;
+}
+
+.contact-form .button:hover {
+  background-color: gray;
+  color: black;
+}
+
+.contact-form .letter-input {
+  width: 100%;
+  border: 2px solid #aaa;
+  height: 100px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact-form input[type="mail"] {
+  width: 100%;
+  border: 2px solid #aaa;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px 8px 8px 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact-form input[type="mail"]:focus {
+  border-color: grey;
+  -webkit-box-shadow: 0 0 8px 0 grey;
+          box-shadow: 0 0 8px 0 grey;
+}
+
+.contact-form .inputWithIcon textarea {
+  padding-left: 50px;
+}
+
+.contact-form .inputWithIcon {
+  position: relative;
+}
+
+.contact-form .inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  height: 43px;
+  width: 43px;
+  padding: 9px 8px;
+  color: #aaa;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact-form .inputWithIcon input[type="mail"]:focus + i {
+  color: grey;
+}
+
+.contact-form .inputWithIcon.inputIconBg i {
+  background-color: #aaa;
+  color: #fff;
+  padding: 14px 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.contact-form .inputWithIcon.inputIconBg input[type="mail"]:focus + i {
+  color: #fff;
+  background-color: grey;
+}
+
+.contact-form .input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.main-logo {
+  height: 20vh;
+  width: 100%;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.poslygi-container {
+  height: 20vh;
+  padding-top: 30px;
+}
+
+.poslygi-container p {
+  margin: auto;
+}
+
+.poslygi-container a {
+  color: black;
+}
+
+.poslygi-container a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.main-menu {
+  height: 5vh;
+  width: 100%;
+}
+
+.main-menu .dropdown-menu {
+  border: none;
+  border-radius: 0;
+}
+
+.main-menu .dropdown-item:active {
+  background-color: lightgrey;
+}
+
+.main-menu li {
+  list-style: none;
+}
+
+.main-menu a {
+  padding: 10px;
+  font-size: 1.3rem;
+  color: black;
+  text-decoration: none;
+}
+
+.main-menu a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.main-carousel {
+  height: 75vh;
+  width: 100%;
+}
+
+.main-carousel .carousel-item {
+  height: 75vh;
+}
+
+.page-content2 {
+  height: 20vh;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.poslygi-content h1 {
+  margin-top: 20px;
+}
+
+.poslygi-content h1:hover {
+  color: grey;
+}
+
+.poslygi-content p:hover {
+  color: grey;
+}
+
+.poslygi-content a {
+  color: black;
+}
+
+.poslygi-content a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-icons a {
+  color: black;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.contact-icons a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.page-content {
+  height: 40vh;
+  text-align: center;
+}
+
+.page-content p {
+  max-width: 55%;
+  font-size: 1.2rem;
+}
+
+.contact-container h2 {
+  font-size: 1.4rem;
+}
+
+.contact-container p {
+  margin: auto;
+  padding: 30px;
+  font-size: 1.2rem;
+}
+
+.contact-container .contact-photo {
+  border-radius: 50%;
+}
+
+.contact-container .contact-photo img {
+  border-radius: 50%;
+  max-width: 50%;
+}
+
+.feedback-content img {
+  max-width: 100%;
+}
+
+.blog-content img {
+  max-width: 100%;
+}
+
+.blog-content h1 {
+  height: 10vh;
+}
+
+.blog-content p {
+  margin: auto;
+  height: 10vh;
+}
+
+.blog-content p:hover {
+  color: grey;
+}
+
+.blog-content h1:hover {
+  color: grey;
+}
+
+.blog-content a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.blog-content a {
+  color: black;
+}
+
+.blog-content img {
+  border-radius: 0;
+}
+
+.follow-us {
+  height: 15vh;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.footer a {
+  font-size: 1.5rem;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.footer .copyright {
+  font-size: 0.7rem;
+}
+/*# sourceMappingURL=style.css.map */
